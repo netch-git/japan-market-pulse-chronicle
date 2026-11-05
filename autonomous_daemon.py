@@ -11,8 +11,11 @@ import subprocess
 import logging
 from datetime import datetime, timedelta
 
-# パス設定
+# パス設定 & backend パスの追加
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, BASE_DIR)
+sys.path.insert(0, os.path.join(BASE_DIR, "backend"))
+
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
 os.makedirs(LOGS_DIR, exist_ok=True)
 
@@ -24,26 +27,37 @@ DEPLOY_LOG_FILE = os.path.join(LOGS_DIR, "deployment_history.log")
 logger = logging.getLogger("autonomous_daemon")
 logger.setLevel(logging.INFO)
 
-# ファイルハンドラ & ストリームハンドラ
-file_handler = logging.FileHandler(DAEMON_LOG_FILE, encoding="utf-8")
-file_handler.setFormatter(logging.Formatter("[%(asctime)s] [%(levelname)s] %(message)s"))
-logger.addHandler(file_handler)
+if not logger.handlers:
+    file_handler = logging.FileHandler(DAEMON_LOG_FILE, encoding="utf-8")
+    file_handler.setFormatter(logging.Formatter("[%(asctime)s] [%(levelname)s] %(message)s"))
+    logger.addHandler(file_handler)
 
-stream_handler = logging.StreamHandler(sys.stdout)
-stream_handler.setFormatter(logging.Formatter("[%(asctime)s] %(message)s"))
-logger.addHandler(stream_handler)
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setFormatter(logging.Formatter("[%(asctime)s] %(message)s"))
+    logger.addHandler(stream_handler)
 
 def run_command(cmd, desc):
-    """コマンド実行ヘルパー"""
+    """コマンド実行ヘルパー（UTF-8エンコーディング & エラー置換）"""
     logger.info(f"Running: {desc} -> {cmd}")
     try:
-        res = subprocess.run(cmd, shell=True, capture_output=True, text=True, cwd=BASE_DIR, timeout=180)
+        res = subprocess.run(
+            cmd,
+            shell=True,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            cwd=BASE_DIR,
+            timeout=180
+        )
+        stdout_txt = (res.stdout or "").strip()
+        stderr_txt = (res.stderr or "").strip()
         if res.returncode == 0:
             logger.info(f"SUCCESS: {desc}")
-            return True, res.stdout.strip()
+            return True, stdout_txt
         else:
-            logger.warning(f"WARNING: {desc} exited with {res.returncode}. Output: {res.stderr.strip() or res.stdout.strip()}")
-            return False, res.stderr.strip()
+            logger.warning(f"WARNING: {desc} exited with {res.returncode}. Output: {stderr_txt or stdout_txt}")
+            return False, stderr_txt
     except Exception as e:
         logger.error(f"ERROR: {desc} failed with exception: {e}")
         return False, str(e)
@@ -58,7 +72,7 @@ def update_pipeline_cycle(iteration: int):
     # 1. データサイエンス計算モジュールの実行
     logger.info("[Step 1/5] Executing Data Science Analytics Engine...")
     try:
-        from backend.analysis_engine import generate_advanced_analytics_payload
+        from analysis_engine import generate_advanced_analytics_payload
         from backend.main import load_latest_cache, save_latest_cache
         
         current_data = load_latest_cache()
@@ -80,7 +94,6 @@ def update_pipeline_cycle(iteration: int):
             with open(frontend_path, "r", encoding="utf-8") as f:
                 content = f.read()
 
-            # updated_date & sync_status の置換
             content = content.replace(
                 'id="updatedDateDisplay">2026-11-05<',
                 f'id="updatedDateDisplay">{cycle_start.strftime("%Y-%m-%d")}<'
@@ -118,7 +131,6 @@ def update_pipeline_cycle(iteration: int):
     with open(DEPLOY_LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"[{cycle_start.strftime('%Y-%m-%d %H:%M:%S')}] Cycle #{iteration:03d} | Deploy: {ok_deploy} | Push: {ok_push} | URL: https://japan-market-pulse.pages.dev\n")
 
-    # JSONメトリクス追記
     history = []
     if os.path.exists(METRICS_LOG_FILE):
         try:
@@ -130,25 +142,24 @@ def update_pipeline_cycle(iteration: int):
     with open(METRICS_LOG_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
 
-    logger.info(f"CYCLE #{iteration:03d} COMPLETED in {cycle_duration:.1f}s. Next cycle in 30 minutes.")
+    logger.info(f"CYCLE #{iteration:03d} COMPLETED in {cycle_duration:.1f}s.")
     logger.info("=" * 70)
 
 def main():
     logger.info("*" * 70)
     logger.info("AUTONOMOUS CONTINUOUS PIPELINE DAEMON INITIALIZED")
-    logger.info(f"Target Time: Tomorrow 04:00:00 JST")
+    logger.info("Target Schedule: Tomorrow 04:00:00 JST")
     logger.info(f"Logs: {DAEMON_LOG_FILE}")
     logger.info("*" * 70)
 
     # 終了目標時刻: 翌朝 04:00 JST
     now = datetime.now()
     target_end = (now + timedelta(days=1)).replace(hour=4, minute=0, second=0, microsecond=0)
-    if now.hour < 4: # もし現在が深夜0時〜4時の間なら本日4時
+    if now.hour < 4:
         target_end = now.replace(hour=4, minute=0, second=0, microsecond=0)
 
     iteration = 1
-    # サイクル間隔: 30分 (1800秒)
-    INTERVAL_SECONDS = 1800
+    INTERVAL_SECONDS = 1800 # 30分間隔
 
     while True:
         current_now = datetime.now()
@@ -164,7 +175,7 @@ def main():
             logger.error(f"Unhandled exception in cycle #{iteration}: {e}")
 
         iteration += 1
-        logger.info(f"Sleeping for {INTERVAL_SECONDS} seconds until next cycle...")
+        logger.info(f"Sleeping for {INTERVAL_SECONDS} seconds until cycle #{iteration:03d}...")
         time.sleep(INTERVAL_SECONDS)
 
 if __name__ == "__main__":
