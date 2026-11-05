@@ -1,0 +1,15 @@
+{
+  "index": 98,
+  "name": "マイボイスコム自主アンケート調査",
+  "category": "リサーチ会社の自主調査データ8選",
+  "provider": "マイボイスコム（東京・千代田）",
+  "summary": "1997年から毎月、大規模な自主調査を実施。飲料、食品、流通、金融、通信、季節催事など約3500テーマの1万人調査結果を公開。冒頭の数問のみ閲覧無料でお以降は有料。",
+  "url": "https://www.myvoice.co.jp/report/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 38300,
+  "content_type": "text/html",
+  "saved_file": "098_マイボイスコム自主アンケート調査.html",
+  "error": null
+}

@@ -1,0 +1,15 @@
+{
+  "index": 14,
+  "name": "全国家庭動向調査",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "国立社会保障・人口問題研究所（東京・千代田）",
+  "summary": "「出産・子育て」「高齢者の扶養・介護」などに家族がどのような役割を果たしているか、家庭機能の変化やその要因を明らかにする目的で5年ごとに調査を実施している。",
+  "url": "https://www.ipss.go.jp/site-ad/index_japanese/ps-katei-index.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 19725,
+  "content_type": "text/html",
+  "saved_file": "014_全国家庭動向調査.html",
+  "error": null
+}

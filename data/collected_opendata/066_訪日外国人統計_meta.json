@@ -1,0 +1,15 @@
+{
+  "index": 66,
+  "name": "訪日外国人統計",
+  "category": "「趣味・レジャー」関連データ7選",
+  "provider": "日本政府観光局",
+  "summary": "訪日外国人客数、および海外へ出国する日本人人数を毎月リポート。2023年の年間訪日外国人数は2500万人を突破。24年3月の訪日外国人数は単月で初めて300万人を超えた。",
+  "url": "https://www.jnto.go.jp/statistics/data/visitors-statistics/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 403,
+  "success": false,
+  "bytes_downloaded": 0,
+  "content_type": "text/html",
+  "saved_file": null,
+  "error": "HTTP 403"
+}

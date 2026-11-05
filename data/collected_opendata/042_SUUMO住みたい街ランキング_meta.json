@@ -1,0 +1,15 @@
+{
+  "index": 42,
+  "name": "SUUMO住みたい街ランキング",
+  "category": "「住まい」関連データ7選",
+  "provider": "リクルート",
+  "summary": "毎年恒例の住みたい街（駅）や自治体を明らかにする調査。首都圏版は、東京都、神奈川・埼玉・千葉・茨城県在住の20〜40代男女1万人が回答。かつては「吉祥寺」がトップだったが、近年は「横浜」が6年連続トップ。「大宮」が3位に躍進している。",
+  "url": "https://suumo.jp/edit/sumi_machi/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 32442,
+  "content_type": "text/html",
+  "saved_file": "042_SUUMO住みたい街ランキング.html",
+  "error": null
+}

@@ -1,0 +1,1301 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-K2G7PPT5');</script>
+	<!-- End Google Tag Manager -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+	<!-- 刊行物詳細ページのみメタタグ個別設定 /src/action/user/PublicationInfoListAction.java -->
+	
+	<!-- 通常はtiles.xmlからメタタグ設定 -->
+	
+		<meta name="description" content="株式会社不動産経済研究所が月次で調査している、新築分譲マンション市場動向の発表資料などを掲載しています。首都圏と近畿圏のエリアごとに新築分譲マンションの発売戸数や、契約率、平均価格などを閲覧することができます。" />
+	
+	
+	<meta name="keywords" content="不動産経済研究所" />
+	
+	<title>マンション市場動向</title>
+
+
+	
+
+
+
+	<link rel="preload" href="css/view/common/default.css?ver=20260916" as="style" onload="this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="css/view/common/default.css?ver=20260916"></noscript>
+	<link rel="preload" href="css/view/common/header.css?ver=20260916" as="style" onload="this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="css/view/common/header.css?ver=20260916"></noscript>
+	<link rel="preload" href="css/view/common/footer.css?ver=20260916" as="style" onload="this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="css/view/common/footer.css?ver=20260916"></noscript>
+	<link rel="preload" href="css/smoothness/jquery-ui-1.10.3.custom.css?ver=20260916" as="style" onload="this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.3.custom.css?ver=20260916"></noscript>
+	<link rel="preload" href="css/view/common/style.css?ver=20260916" as="style" onload="this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="css/view/common/style.css?ver=20260916"></noscript>
+	<link rel="stylesheet" href="css/view/common/responsive-768.css?ver=20260916" media="only screen and (max-width: 768px)">
+	<noscript><link rel="stylesheet" href="css/view/common/responsive-768.css?ver=20260916" media="only screen and (max-width: 768px)"></noscript>
+
+
+	<style>
+	input[type=text]:focus,
+	input[type=password]:focus,
+	textarea:focus  {
+		outline: 1px #99ccff solid;
+	}
+	/*  */
+	.highlight { background-color: yellow }
+
+	</style>
+
+	
+	<script type="text/javascript" src="js/view/onload.js?ver=20260916" ></script>
+	<script type="text/javascript" src="js/view/jquery-1.10.2.min.js?ver=20260916" ></script>
+	<script type="text/javascript" src="js/view/jquery-ui-1.10.3.custom.min.js?ver=20260916" ></script>
+	<script type="text/javascript" src="js/view/highlight-3.js?ver=20260916" ></script>
+	<script type="text/javascript" src="js/view/jquery.ui.datepicker-ja.js?ver=20260916"></script>
+	<script type="text/javascript" src="js/view/set.js?ver=20260916"></script>
+	<!--for button&text_box effect -->
+
+
+	<script type="text/javascript" src="js/view/gototop.js?ver=20260916"></script>
+
+
+
+	<script type="text/javascript">
+	//  for switch tab
+	//  $(function() {
+		/*
+		$("li").hover(function() {
+		id_ul = $(this).parent("ul").attr("id"); //#tab*
+			$(this).addClass('hover');
+		},function(){
+		   	$("#"+id_ul+" li").removeClass('hover');
+
+		});
+
+		$("li").click(function() {
+			id_div = $(this).parents("div").attr("id");
+			id = $(this).parent("ul").attr("id");
+			value = $(this).parent("ul").attr("value");
+
+			var num = $("#"+id+" li").index(this);
+			$("#"+id_div+" div.content_wrap").addClass('disnon');
+			$("#"+id_div+" div.content_wrap").eq(num).removeClass('disnon');
+			$("#"+id+" li").removeClass('select');
+			$(this).addClass('select')
+		});	//});
+	});
+	*/
+	</script>
+
+
+	<script type="text/javascript" src="js/view/jquery.belatedPNG.js?ver=20260916"></script>
+	<script type="text/javascript">
+	$(function(){
+		$(".login_bt span").fixPng();
+		$(".apply_bt span").fixPng();
+		$(".apply_bt_eng span").fixPng();
+
+	});
+	</script>
+	<script type="text/javascript" src="js/view/effects.js?ver=20260916"></script>
+
+	
+	
+
+
+
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async
+src="https://www.googletagmanager.com/gtag/js?id=UA-108988265-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-108988265-1');
+</script>
+<meta name="google-site-verification" content="QVCn8wfzFkpoJl8w6L5ACFniqeZCdPYcf3GC2EF-V1c" />
+
+<script type="text/javascript">
+	var elements = document.getElementsByClassName("cssAddQuery");
+	var timestamp = new Date().getTime();
+	for (var element of elements) {
+		// 要素に対する処理
+		element.href = element.href + "?v=" + timestamp;
+	}
+</script>
+
+</head>
+<body>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2G7PPT5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	
+	<header id="header" class="">
+
+
+	<div id="header_wrap">
+		<div class="header_left">
+			<a href="./" class="logo">
+				<h1 id="logo">
+					<img src="images/view/common/header-logo.svg" alt="不動産経済研究所"/>
+				</h1>
+			</a>
+
+			<div class="sp-menu">
+				
+
+				<div class="menu-toggle">
+					<span></span>
+					<div class="menu-text">MENU</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="header_right">
+			
+			<div id="search_box" >
+				<form id="searchform2" name="searchform2" action="/allSearch.action" method="GET">
+					<input type="text" name="keywords" value="サイト内検索" id="keywords2"/>
+					<input type="submit"  alt="検索" name="searchBtn2" id="searchBtn2" />
+				</form>
+
+
+
+
+			</div>
+			<a href="/footerInfomation?fInfo=5" target="_blank" class="btn contact_btn pc">
+				<span class="mail-icon">
+					<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22.9154 6.25008C22.9154 5.10425 21.9779 4.16675 20.832 4.16675H4.16536C3.01953 4.16675 2.08203 5.10425 2.08203 6.25008V18.7501C2.08203 19.8959 3.01953 20.8334 4.16536 20.8334H20.832C21.9779 20.8334 22.9154 19.8959 22.9154 18.7501V6.25008ZM20.832 6.25008L12.4987 11.448L4.16536 6.25008H20.832ZM20.832 18.7501H4.16536V8.33342L12.4987 13.5417L20.832 8.33342V18.7501Z" fill="currentColor"/>
+					</svg>
+				</span>
+				お問い合わせ
+			</a>
+		</div>
+	</div>
+	<!-- /header_wrap -->
+	<div id="gnavi" >
+		<ul   >
+			<li id="navi_business_introduction"><a  href="/companyInfo?cInfo=2">事業紹介</a></li>
+			<li id="navi_publication"><a href="/publication">出版物・商品・サービス</a></li>
+			<li id="navi_daily"><a href="/daily">日刊不動産経済通信</a></li>
+			<li id="navi_shijou"><a href="/mansion">マンション市場動向</a></li>
+			<li id="navi_seminar"><a href="/seminar">セミナー</a></li>
+			<li id="navi_company"><a href="/companyInfo">会社情報</a></li>
+			<li id="navi_article_usage"><a href="/footerInfomation?fInfo=2">記事の使用について</a></li>
+		</ul>
+	</div>
+	<!-- /gnavi-->
+
+<!-- スマホメニュー -->
+<div class="mobile-menu">
+	<div class="close-btn-container">
+			<a href="/footerInfomation?fInfo=5" target="_blank" class="btn contact_btn">
+				<span class="mail-icon">
+					<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22.9154 6.25008C22.9154 5.10425 21.9779 4.16675 20.832 4.16675H4.16536C3.01953 4.16675 2.08203 5.10425 2.08203 6.25008V18.7501C2.08203 19.8959 3.01953 20.8334 4.16536 20.8334H20.832C21.9779 20.8334 22.9154 19.8959 22.9154 18.7501V6.25008ZM20.832 6.25008L12.4987 11.448L4.16536 6.25008H20.832ZM20.832 18.7501H4.16536V8.33342L12.4987 13.5417L20.832 8.33342V18.7501Z" fill="currentColor"/>
+					</svg>
+				</span>
+				お問い合わせ
+			</a>
+			<div class="close-btn">×<div class="menu-text">CLOSE</div></div>
+	</div>
+	<div class="section-title">不動産経済研究所について</div>
+	<ul>
+			<li><a href="./">ホーム <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/companyInfo?cInfo=2">事業紹介 <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/seminar">セミナー <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/companyInfo">会社情報 <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/footerInfomation?fInfo=8">採用情報 <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+	</ul>
+	<div class="section-title">商品</div>
+	<ul>
+			<li><a href="/publication">出版物・商品・サービス <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/daily">日刊不動産経済通信 <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/publicationCatelist?cateId=15&id=22">不動産経済ファンドレビュー <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/mansion">マンション市場動向 <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/publicationCatelist?cateId=15&id=49">マンションタイムズ <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/publicationCatelist?cateId=15&id=21">不動産経済Focus & Research <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+	</ul>
+	<div class="section-title">サポート・その他</div>
+	<ul>
+			<li><a href="/footerInfomation?fInfo=5" target="_blank">お問い合わせ <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/footerInfomation?fInfo=3">よくある質問 <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/footerInfomation?fInfo=2">記事の使用について <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/footerInfomation?fInfo=7">著作権 <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/footerInfomation?fInfo=6">個人情報保護方針 <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+			<li><a href="/footerInfomation?fInfo=9">サイトマップ <img src="/images/view/icon/angle-right.svg" class="arrow" width="16" height="16" alt="" ></a></li>
+	</ul>
+</div>
+<!-- /スマホメニュー -->
+
+<script type="text/javascript">
+var open_close=0;
+$(function(){ /* select categories */
+	$("#account_sv li").click(function(){
+		if(open_close==0){
+		/*	$(this).children('#asv_select').addClass('Demo_nborder1');*/
+		/*	$(this).children().children('#sankaku').show();*/
+			$(this).children('ul').show();
+			open_close=1;
+		}else{
+		/*	$(this).children('#asv_select').removeClass('Demo_nborder1');*/
+			$(this).children('ul').hide();
+		/*	$(this).children().children('#sankaku').hide();*/
+			open_close=0;
+		}
+	});
+	$('body').click(function(){
+		if(open_close==1){
+			open_close=2;
+		}else if(open_close==2){
+		/*	$("#account_sv li").children('#asv_select').removeClass('Demo_nborder1');*/
+			$("#account_sv li").children('ul').hide();
+		/*	$("#account_sv li").children().children('#sankaku').hide();*/
+			open_close=0;
+		}
+	});
+	$(".pwchg").click(function(){
+
+		$('#mypage_form_id #pwchangeFlg').val(1);
+		$('#mypage_form_id').attr("action","pwchgfirstview");
+		$('#mypage_form_id').submit();
+
+	});
+});
+
+/* スマホメニューの開閉 */
+$(document).ready(function () {
+    $('.menu-toggle').click(function () {
+        $(this).toggleClass('open');
+        $('.mobile-menu').toggleClass('open');
+    });
+
+    $('.close-btn').click(function () {
+        $('.mobile-menu').removeClass('open');
+        $('.menu-toggle').removeClass('open');
+    });
+});
+</script>
+</header>
+
+	
+	<div id="container" class="clearfix">
+		
+
+
+<div id="main" >
+	<div class="topicpath" >
+		<ol>
+			<li id="navi_top"><a href="./">トップ</a></li>
+			<li id="navi_shijou">マンション市場動向</li>
+		</ol>
+	</div>
+	
+	<div class="two-culumns-wrapper page-overview">
+		<div class="main-content mb-40">
+			<h1>マンション市場動向</h1>
+			<p class="mt-20 xs-fs-14 lh-19">
+				新築分譲マンションに関する調査結果を主に掲載しています。<br />
+				新築分譲マンションの発売戸数や平均価格などの情報を各発表資料から閲覧できます。<br />
+				首都圏・近畿圏の毎月の市場動向（毎月中旬から下旬に公開）はこちらから参照できます。
+			</p>
+			<p class="fs-20 xs-fs-16 lh-19">
+				<a href="/mansion?archiveFlg=1">過去の発表資料・データニュース一覧を見る &gt;</a>
+			</p>
+		</div>
+		<div class="side-content"></div>
+	</div>
+	
+	
+	
+
+
+<a href="/companyInfo.action?cInfo=2" class="mb-40 sp banner"><img src="/images/view/banner/market-research.png" width="300" height="50" alt="市場調査のご案内" /></a>
+
+	
+	<div class="two-culumns-wrapper">
+		<section class="main-content mb-60 xs-mb-0">
+			<div id="content_daily">
+				
+				<section class="latest-article content_wrap bg-white-wrapper mb-40">
+					<h2 class="mb-20">発表資料</h2>
+					
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/10/20</span>
+			<span class="daily_cateico">月次</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/691/RtE7hi21.pdf" class="icon_pdf">
+				首都圏新築分譲マンション市場動向2026年9月度
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/10/20</span>
+			<span class="daily_cateico">月次</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/690/RtE7hi22.pdf" class="icon_pdf">
+				近畿圏新築分譲マンション市場動向2026年9月度
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/10/20</span>
+			<span class="daily_cateico">年度・年度上期</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/689/2649_s.pdf" class="icon_pdf">
+				首都圏新築分譲マンション2026年度上半期（2026年4月～9月）
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/10/20</span>
+			<span class="daily_cateico">年度・年度上期</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/688/2649_k.pdf" class="icon_pdf">
+				近畿圏新築分譲マンション2026年度上半期（2026年4月～9月）
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/09/17</span>
+			<span class="daily_cateico">月次</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/687/za4cO8m1.pdf" class="icon_pdf">
+				首都圏新築分譲マンション市場動向2026年8月度　※修正が入りました
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/09/17</span>
+			<span class="daily_cateico">月次</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/686/za4cO8m2.pdf" class="icon_pdf">
+				近畿圏新築分譲マンション市場動向2026年8月度
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/08/20</span>
+			<span class="daily_cateico">月次</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/685/hyke9Ya1.pdf" class="icon_pdf">
+				首都圏新築分譲マンション市場動向2026年7月度
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/08/20</span>
+			<span class="daily_cateico">月次</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/684/hyke9Ya2.pdf" class="icon_pdf">
+				近畿圏新築分譲マンション市場動向2026年7月度
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/07/21</span>
+			<span class="daily_cateico">月次</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/681/nlsUcB71.pdf" class="icon_pdf">
+				首都圏新築分譲マンション市場動向2026年6月度
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+							
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/07/21</span>
+			<span class="daily_cateico">月次</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/680/nlsUcB72.pdf" class="icon_pdf">
+				近畿圏新築分譲マンション市場動向2026年6月度
+			</a>
+		</p>
+	</dd>
+</dl>
+
+						
+					
+					
+				</section>
+			
+				<section class="latest-article content_wrap bg-white-wrapper mb-40">
+					<h2 class="mb-20">データニュース</h2>
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/08/13</span>
+			<span class="daily_cateico">その他</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/683/mdn20260813.pdf" class="icon_pdf">
+				首都圏マンション 戸当たり価格と専有面積の中央値の推移2026年上半期
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/08/05</span>
+			<span class="daily_cateico">投資用</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/682/mdn20260805.pdf" class="icon_pdf">
+				2026年上期及び2025年年間の首都圏投資用マンション市場動向
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/06/04</span>
+			<span class="daily_cateico">超高層</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/675/mdn20260604.pdf" class="icon_pdf">
+				全国超高層マンション市場動向 2026年3月末現在
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/03/25</span>
+			<span class="daily_cateico">その他</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/663/mdn20260325.pdf" class="icon_pdf">
+				2025年 全国分譲マンション 売主グループ別供給戸数ランキング
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2026/02/12</span>
+			<span class="daily_cateico">その他</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/657/mdn20260212.pdf" class="icon_pdf">
+				首都圏マンション 戸当たり価格と専有面積の中央値の推移2025年
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2025/12/23</span>
+			<span class="daily_cateico">その他</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/652/mdn20251223.pdf" class="icon_pdf">
+				首都圏・近畿圏マンション市場予測2026年
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2025/08/05</span>
+			<span class="daily_cateico">投資用</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/639/mdn20250805.pdf" class="icon_pdf">
+				2025年上期及び2024年年間の首都圏投資用マンション市場動向
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2025/08/01</span>
+			<span class="daily_cateico">その他</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/638/mdn20250801.pdf" class="icon_pdf">
+				首都圏マンション 戸当たり価格と専有面積の中央値の推移 2025年上半期
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2025/05/22</span>
+			<span class="daily_cateico">超高層</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/629/mdn20250522.pdf" class="icon_pdf">
+				全国超高層マンション市場動向 2025年3月末現在
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+						
+
+
+<dl class="t2">
+	<dd class="mb-15 xs-mb-30">
+		<div class="date-and-category">
+			<span class="fs-14">2025/04/10</span>
+			<span class="daily_cateico">その他</span>
+		</div>
+		<p class="fs-14">
+			<a href="./share/mansion/624/mdn20250410.pdf" class="icon_pdf">
+				首都圏･近畿圏コンパクトマンション(専有面積30㎡以上50㎡未満)供給動向2024年
+			</a>
+		</p>
+	</dd>
+</dl>
+
+					
+				</section>
+				
+				<section class="latest-article content_wrap bg-white-wrapper mb-40 mansion_data_table">
+					<h2 class="mb-20">発表日程</h2>
+					<table class="mansion_data schedule mb-20">
+						<tr>
+							<th>調査対象</th>
+							<th>日程</th>
+							<th>時間</th>
+							<th>予定・確定</th>
+						</tr>
+						
+							<tr>
+								<td>2026年10月</td>
+								<td class="text-nowrap">2026/11/19</td>
+								<td class="text-nowrap">14:00~</td>
+								<td>
+									<span class="alignC">
+										予定
+										
+										
+											
+										
+										
+									</span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>2026年11月</td>
+								<td class="text-nowrap">2026/12/17</td>
+								<td class="text-nowrap">14:00~</td>
+								<td>
+									<span class="alignC">
+										予定
+										
+										
+											
+										
+										
+									</span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>2026年12月および2026年年間(首都圏･近畿圏)</td>
+								<td class="text-nowrap">2027/01/25</td>
+								<td class="text-nowrap">14:00~</td>
+								<td>
+									<span class="alignC">
+										予定
+										
+										
+											
+										
+										
+									</span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>2027年1月</td>
+								<td class="text-nowrap">2027/02/17</td>
+								<td class="text-nowrap">14:00~</td>
+								<td>
+									<span class="alignC">
+										予定
+										
+										
+											
+										
+										
+									</span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>2027年2月</td>
+								<td class="text-nowrap">2027/03/17</td>
+								<td class="text-nowrap">14:00~</td>
+								<td>
+									<span class="alignC">
+										予定
+										
+										
+											
+										
+										
+									</span>
+								</td>
+							</tr>
+						
+					</table>
+				</section>
+				
+				<section class="latest-article content_wrap bg-white-wrapper">
+					<h2 class="mb-20">月間完成在庫</h2>
+					<a href="mansion?archiveFlg=2" class="head">過去の完成在庫数を見る &gt;</a>
+					
+					
+					
+					
+						
+							<p >2026年09月度完成在庫数</p>
+							<table class="mansion_data inbentory mb-20">
+								<tr>
+									<th>地域</th>
+									<th>戸数</th>
+								</tr>
+								<tr>
+									<td>首都圏</td>
+									<td>
+										
+										
+											4316戸
+										
+									</td>
+								</tr>
+								<tr>
+									<td>近畿圏</td>
+									<td>
+										
+										
+											1395戸
+										
+									</td>
+								</tr>
+							</table>
+						
+					
+				</section>
+				
+			</div>
+		</section>
+		
+		
+		
+
+		
+<div class="side-content">
+	<a href="/companyInfo.action?cInfo=2" class="mb-30 pc"><img src="/images/view/banner/market-research.png" width="300" height="50" alt="市場調査のご案内" /></a>
+	
+	<h2 class="side-content-heading underline-none">関連する出版物・商品・サービス</h2>
+	<div class="pub_main mb-40">
+		<b class="head">マンションデータシステム</b>
+		<!-- マンションデータシステム(カテゴリID14)かつ日刊不動産経済通信以外の全件を表示 -->
+		<ul class="publication_list">
+			
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					<li>
+						<a href="publicationCatelistBrain?cateId=14&id=56">
+							<div class="img">
+								<img src="/share/public/img/56/BRaiN_image.jpg" alt="BRaiN（ブレイン）" loading="lazy">
+							</div>
+							<p>BRaiN（ブレイン）</p>
+						</a>
+					</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		</ul>
+
+		<b class="head">マンション資料集（定期刊行物）</b>
+		<!-- 最新のものから「マンション資料集（定期刊行物）」の全件を表示 -->
+		<ul class="publication_list">
+			
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=17&id=27">
+							<div class="img">
+								<img src="/share/public/img/27/zenkoku2025.jpg" alt="全国マンション市場動向" loading="lazy">
+							</div>
+							<p>全国マンション市場動向</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=17&id=28">
+							<div class="img">
+								<img src="/share/public/img/28/toushi2026.jpg" alt="投資用マンション市場動向" loading="lazy">
+							</div>
+							<p>投資用マンション市場動向</p>
+						</a>
+					</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=17&id=59">
+							<div class="img">
+								<img src="/share/public/img/59/23_Monthly data_picture.jpg" alt="東京23区新築分譲マンション月次データ" loading="lazy">
+							</div>
+							<p>東京23区新築分譲マンション月次データ</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=17&id=17">
+							<div class="img">
+								<img src="/share/public/img/17/image_ge-syu.jpg" alt="不動産経済調査月報＜首都圏版＞" loading="lazy">
+							</div>
+							<p>不動産経済調査月報＜首都圏版＞</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=17&id=23">
+							<div class="img">
+								<img src="/share/public/img/23/image_ge-kin.jpg" alt="不動産経済調査月報＜近畿圏版＞" loading="lazy">
+							</div>
+							<p>不動産経済調査月報＜近畿圏版＞</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=17&id=18">
+							<div class="img">
+								<img src="/share/public/img/18/syutocdcover.jpg" alt="不動産経済調査月報 EXCELバージョン＜首都圏版＞" loading="lazy">
+							</div>
+							<p>不動産経済調査月報 EXCELバージョン＜首都圏版＞</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=17&id=24">
+							<div class="img">
+								<img src="/share/public/img/24/kinkicdcover.jpg" alt="不動産経済調査月報 EXCELバージョン＜近畿圏版＞" loading="lazy">
+							</div>
+							<p>不動産経済調査月報 EXCELバージョン＜近畿圏版＞</p>
+						</a>
+					</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=17&id=16">
+							<div class="img">
+								<img src="/share/public/img/16/icm_image.jpg" alt="マンション総合研究所（ICM）" loading="lazy">
+							</div>
+							<p>マンション総合研究所（ICM）</p>
+						</a>
+					</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		</ul>
+		
+		<b class="head">マンション資料集（その他）</b>
+		<!-- 最新のものから「マンション資料集（その他）」の全件を表示 -->
+		<ul class="publication_list">
+			
+			
+				
+			
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=62">
+							<div class="img">
+								<img src="/share/public/img/62/50S202311.jpg" alt="全国マンション市場・50年史" loading="lazy">
+							</div>
+							<p>全国マンション市場・50年史</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=30">
+							<div class="img">
+								<img src="/share/public/img/30/compactmansion.png" alt="首都圏･近畿圏コンパクトマンション供給住戸データ集 2023年版" loading="lazy">
+							</div>
+							<p>首都圏･近畿圏コンパクトマンション供給住戸データ集 2023年版</p>
+						</a>
+					</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=31">
+							<div class="img">
+								<img src="/share/public/img/31/koukyumansion.png" alt="超高層マンション資料集 2019年版" loading="lazy">
+							</div>
+							<p>超高層マンション資料集 2019年版</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=29">
+							<div class="img">
+								<img src="/share/public/img/29/20190301154054-0001.gif" alt="定借マンション市場動向 2018年版" loading="lazy">
+							</div>
+							<p>定借マンション市場動向 2018年版</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=52">
+							<div class="img">
+								<img src="/share/public/img/52/img-kyutaishin_m2.jpg" alt="1981年以前竣工マンション（旧耐震マンション）データ集" loading="lazy">
+							</div>
+							<p>1981年以前竣工マンション（旧耐震マンション）データ集</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=53">
+							<div class="img">
+								<img src="/share/public/img/53/20180404-001.jpg" alt="全国マンション市場動向＜2003～2012年 10年パック＞" loading="lazy">
+							</div>
+							<p>全国マンション市場動向＜2003～2012年 10年パック＞</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=25">
+							<div class="img">
+								<img src="/share/public/img/25/zenkokumansion_fukkoku.png" alt="全国マンション市場＜復刻版＞" loading="lazy">
+							</div>
+							<p>全国マンション市場＜復刻版＞</p>
+						</a>
+					</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=48">
+							<div class="img">
+								<img src="/share/public/img/48/20170131164959-0001.jpg" alt="リノベーションマンション事例集" loading="lazy">
+							</div>
+							<p>リノベーションマンション事例集</p>
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href="publicationCatelist?cateId=18&id=44">
+							<div class="img">
+								<img src="/share/public/img/44/kosodatekourei.jpg" alt="子育て・高齢者支援マンション資料集" loading="lazy">
+							</div>
+							<p>子育て・高齢者支援マンション資料集</p>
+						</a>
+					</li>
+				
+			
+		</ul>
+
+
+	</div>
+</div>
+
+	</div>
+<!-- /main -->
+</div>
+
+
+	
+	<footer id="footer">
+		
+
+
+
+	<div id="footer_wrap">
+		<a id="logo_footer" href="./">トップページへ</a>
+		<div class="footer-inner">
+			<div class="footer_links">
+				<div>
+					<h3>不動産経済研究所について</h3>
+					<ul id="fnavi">
+						<li><a href="./">ホーム</a></li>
+						<li><a href="/companyInfo?cInfo=2">事業紹介</a></li>
+						<li><a href="/seminar">セミナー</a></li>
+						<li><a href="/companyInfo">会社情報</a></li>
+						<li><a href="/corporateCodeOfConduct">企業行動指針</a></li>
+						<li><a href="/footerInfomation?fInfo=8">採用情報</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3>商品</h3>
+					<ul id="fnavi">
+						<li><a href="/publication">出版物・商品・サービス</a></li>
+						<li><a href="/daily">日刊不動産経済通信</a></li>
+						<li><a href="/publicationCatelist?cateId=15&id=22">不動産経済ファンドレビュー</a></li>
+						<li><a href="/mansion">マンション市場動向</a></li>
+						<li><a href="/publicationCatelist?cateId=15&id=49">マンションタイムズ</a></li>
+						<li><a href="/publicationCatelist?cateId=15&id=21">不動産経済Focus & Research</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3>サポート・その他</h3>
+					<ul id="fnavi">
+						<li><a href="/footerInfomation?fInfo=5">お問い合わせ</a></li>
+						<li><a href="/footerInfomation?fInfo=3">よくある質問</a></li>
+						<li><a href="/footerInfomation?fInfo=2">記事の使用について</a></li>
+						<li><a href="/footerInfomation?fInfo=7">著作権</a></li>
+						<li><a href="/footerInfomation?fInfo=6">個人情報保護方針</a></li>
+						<li><a href="/footerInfomation?fInfo=9">サイトマップ</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footer_banners">
+
+				<div class="footer-60thsite-banner">
+					<a href="/60th/shuto-data.html" target="_blank"><img src="/images/view/banner/minibanner2_322x86.png" alt="新築マンション 戸数と価格" width="161" height="43"></a>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+				Copyright &copy; 2014 Real Estate Economic Institute Co., Ltd. All Rights Reserved.
+		</div>
+
+  </div>
+
+</div>
+<!-- /footer -->
+
+	</footer>
+</body>
+</html>

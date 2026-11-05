@@ -1,0 +1,15 @@
+{
+  "index": 93,
+  "name": "消費者物価指数 東京都区部",
+  "category": "「物価」関連データ3選",
+  "provider": "総務省",
+  "summary": "毎月末に総務省が公表する東京都区部の消費者物価指数（中旬速報値、2020年＝100）のうち、変動の大きい生鮮食品を除く総合指数が、物価上昇度合いを判断するバロメーターになっている。10大費目別の指数、増減への寄与度なども掲載。",
+  "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 13338,
+  "content_type": "text/html",
+  "saved_file": "093_消費者物価指数_東京都区部.html",
+  "error": null
+}

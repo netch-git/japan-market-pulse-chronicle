@@ -1,0 +1,15 @@
+{
+  "index": 39,
+  "name": "三大都市圏・主要都市別 中古マンション70平米価格月別推移",
+  "category": "「住まい」関連データ7選",
+  "provider": "東京カンテイ（東京・品川）",
+  "summary": "三大都市圏別に中古マンションの価格動向を調査。坪単価ではなく70平米換算で表す。2025年8月の首都圏は5887万円、東京23区は1億721万円で、都心部は上昇が続いている。",
+  "url": "https://www.kantei.ne.jp/report/category/70m2/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 188032,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "039_三大都市圏・主要都市別_中古マンション70平米価格月別推移.html",
+  "error": null
+}

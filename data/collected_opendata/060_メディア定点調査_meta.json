@@ -1,0 +1,15 @@
+{
+  "index": 60,
+  "name": "メディア定点調査",
+  "category": "メディア接触データ4選",
+  "provider": "博報堂DYメディアパートナーズ（東京・港）",
+  "summary": "テレビ、ラジオ、新聞、雑誌、パソコン、タブレット、携帯電話・スマートフォンのメディア接触時間を2006年から毎年調査。各メディアに対するイメージや意識、所有デバイスなどをリポート。",
+  "url": "https://mekanken.com/projects/media-survey/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 35863,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "060_メディア定点調査.html",
+  "error": null
+}

@@ -1,0 +1,15 @@
+{
+  "index": 23,
+  "name": "顧客満足度調査（JCSI）",
+  "category": "消費・流行、顧客満足データ5選",
+  "provider": "日本生産性本部（東京・千代田）",
+  "summary": "30業種以上、約400の企業・ブランドを対象に、総計6万人以上の利用者アンケートを実施して算出する顧客満足度調査。顧客満足のほか、顧客期待、知覚品質、知覚価値、推奨意向、ロイヤルティー、感動指標、失望指標、CSR（企業の社会的責任）指標の計9指標を算出。",
+  "url": "https://www.jpc-net.jp/research/jcsi/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 39985,
+  "content_type": "text/html",
+  "saved_file": "023_顧客満足度調査（JCSI）.html",
+  "error": null
+}

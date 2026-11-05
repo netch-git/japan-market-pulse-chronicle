@@ -1,0 +1,15 @@
+{
+  "index": 91,
+  "name": "給油所小売価格調査（ガソリン、軽油、灯油）",
+  "category": "「物価」関連データ3選",
+  "provider": "日本エネルギー経済研究所石油情報センター（東京・中央）",
+  "summary": "レギュラーガソリンの店頭価格などを週次で公表。2024年5月7日の全国平均は1リットル174.7円。1990年8月以降の価格推移を閲覧できる。",
+  "url": "https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/results.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 12478,
+  "content_type": "text/html",
+  "saved_file": "091_給油所小売価格調査（ガソリン、軽油、灯油）.html",
+  "error": null
+}

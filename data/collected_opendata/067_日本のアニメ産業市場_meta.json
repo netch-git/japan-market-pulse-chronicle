@@ -1,0 +1,15 @@
+{
+  "index": 67,
+  "name": "日本のアニメ産業市場",
+  "category": "「趣味・レジャー」関連データ7選",
+  "provider": "日本動画協会（東京・文京）",
+  "summary": "「アニメ産業レポート」を毎年発行し、サマリー（PDF）を掲載している。2023年のアニメ産業市場（広義のアニメ市場／エンドユーザー市場）は、前年比14.3%増の3兆3465億円と算出。1兆4769億円だった13年比（10年前比）2.27倍の規模になっている。",
+  "url": "https://aja.gr.jp/jigyou/chousa/sangyo_toukei",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 83762,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "067_日本のアニメ産業市場.html",
+  "error": null
+}

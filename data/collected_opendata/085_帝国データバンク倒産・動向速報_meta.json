@@ -1,0 +1,15 @@
+{
+  "index": 85,
+  "name": "帝国データバンク倒産・動向速報",
+  "category": "景気動向が分かるデータ7選",
+  "provider": "帝国データバンク（東京・港）",
+  "summary": "負債額30億円以上の倒産情報を掲載。",
+  "url": "https://www.tdb.co.jp/report/bankruptcy/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 1161446,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "085_帝国データバンク倒産・動向速報.html",
+  "error": null
+}

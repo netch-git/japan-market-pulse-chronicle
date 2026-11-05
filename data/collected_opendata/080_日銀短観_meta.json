@@ -1,0 +1,15 @@
+{
+  "index": 80,
+  "name": "日銀短観",
+  "category": "景気動向が分かるデータ7選",
+  "provider": "日本銀行",
+  "summary": "日本銀行が四半期ごとに実施する「全国企業短期経済観測調査」の略称。全国約1万社の企業を対象に景況感について調査し、景気判断を下す。",
+  "url": "https://www.boj.or.jp/statistics/tk/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 70594,
+  "content_type": "text/html;charset=UTF-8",
+  "saved_file": "080_日銀短観.html",
+  "error": null
+}

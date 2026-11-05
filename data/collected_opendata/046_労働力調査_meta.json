@@ -1,0 +1,15 @@
+{
+  "index": 46,
+  "name": "労働力調査",
+  "category": "「職」関連データ5選",
+  "provider": "総務省",
+  "summary": "国内の就業状況を把握するための調査。最も注目されるのは完全失業率。2024年3月の完全失業率は2.6%と低い水準で推移している。",
+  "url": "https://www.stat.go.jp/data/roudou/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 18077,
+  "content_type": "text/html",
+  "saved_file": "046_労働力調査.html",
+  "error": null
+}

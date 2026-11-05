@@ -1,0 +1,15 @@
+{
+  "index": 44,
+  "name": "レインズデータライブラリー",
+  "category": "「住まい」関連データ7選",
+  "provider": "東日本不動産流通機構（東京・千代田）",
+  "summary": "中古マンション・中古戸建住宅の成約物件、新規登録物件、在庫物件の件数・価格などから、首都圏および地域別の最新動向を分析、紹介。",
+  "url": "https://www.reins.or.jp",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 42387,
+  "content_type": "text/html",
+  "saved_file": "044_レインズデータライブラリー.html",
+  "error": null
+}

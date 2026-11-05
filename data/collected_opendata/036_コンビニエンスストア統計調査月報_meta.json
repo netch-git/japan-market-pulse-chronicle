@@ -1,0 +1,15 @@
+{
+  "index": 36,
+  "name": "コンビニエンスストア統計調査月報",
+  "category": "「買い物」関連データ9選",
+  "provider": "日本フランチャイズチェーン協会（JFA、東京・港）",
+  "summary": "JFA正会員コンビニエンスストア7社（セイコーマート、セブン-イレブン、デイリーヤマザキ、ファミリーマート、ポプラ、ミニストップ、ローソン）の店舗売上高などを月次で集計し、公表。",
+  "url": "https://www.jfa-fc.or.jp/particle/320.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 27593,
+  "content_type": "text/html",
+  "saved_file": "036_コンビニエンスストア統計調査月報.html",
+  "error": null
+}

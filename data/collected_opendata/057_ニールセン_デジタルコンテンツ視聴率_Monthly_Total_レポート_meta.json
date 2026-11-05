@@ -1,0 +1,15 @@
+{
+  "index": 57,
+  "name": "ニールセン デジタルコンテンツ視聴率 Monthly Total レポート",
+  "category": "「デジタルライフ」関連データ8選",
+  "provider": "ニールセン デジタル（東京・港）",
+  "summary": "デジタルコンテンツの利用について、パソコン、モバイル、タブレット、コネクテッドTVなどデバイスを横断して計測し、視聴者のメディア接触と消費量を包括的に把握。毎月テーマを決めて、オンラインサービス・コンテンツへのアクセス動向、傾向をリポート。",
+  "url": "https://www.netratings.co.jp/news_release/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 26144,
+  "content_type": "text/html",
+  "saved_file": "057_ニールセン_デジタルコンテンツ視聴率_Monthly_Total_レポート.html",
+  "error": null
+}

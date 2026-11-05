@@ -1,0 +1,15 @@
+{
+  "index": 27,
+  "name": "ホットペッパーグルメ外食総研",
+  "category": "「食」関連データ6選",
+  "provider": "リクルート",
+  "summary": "月次で公表する「外食市場調査」「フード系アルバイト・パートの三大都市圏平均時給」「ホットペッパーグルメ人気検索キーワード」など外食にまつわる調査・研究データの情報を配信。",
+  "url": "https://www.hotpepper.jp/ggs/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 204454,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "027_ホットペッパーグルメ外食総研.html",
+  "error": null
+}

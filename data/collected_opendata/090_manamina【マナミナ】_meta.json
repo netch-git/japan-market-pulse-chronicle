@@ -1,0 +1,15 @@
+{
+  "index": 90,
+  "name": "manamina【マナミナ】",
+  "category": "リサーチ会社の自主調査データ8選",
+  "provider": "ヴァリューズ（東京・港）",
+  "summary": "マーケティング情報メディア「まなべるみんなのデータマーケティング・マガジン」（マナミナ）。旬なテーマの市場調査や、アンケート、行動ログ分析に基づく消費動向、競合Webサイトの調査結果などを解説。検索キーワードやアプリのランキングデータも公開。",
+  "url": "https://manamina.valuesccg.com/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 101812,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "090_manamina【マナミナ】.html",
+  "error": null
+}

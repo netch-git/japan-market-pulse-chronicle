@@ -1,0 +1,15 @@
+{
+  "index": 47,
+  "name": "決定初任給調査",
+  "category": "「職」関連データ5選",
+  "provider": "産労総合研究所（東京・千代田）",
+  "summary": "上場企業および産労総合研究所の会員企業から任意に抽出した3000社の新入社員大卒初任給を調査、集計して公表。2024年4月入社者の初任給を「引き上げた」企業は70%を超えている。",
+  "url": "https://www.e-sanro.net/research/research_jinji/chinginseido/shoninkyu/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 61234,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "047_決定初任給調査.html",
+  "error": null
+}

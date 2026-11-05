@@ -1,0 +1,15 @@
+{
+  "index": 34,
+  "name": "SC販売統計調査報告",
+  "category": "「買い物」関連データ9選",
+  "provider": "日本ショッピングセンター協会（東京・文京）",
+  "summary": "全国約500のショッピングセンター（SC）の売上高前年同月比を調査、公表。ファッション、食料品、飲食などジャンル別、地域別、都市規模別のデータも掲載している。",
+  "url": "https://www.jcsc.or.jp/sc_data/data/salesdata",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 64142,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "034_SC販売統計調査報告.html",
+  "error": null
+}

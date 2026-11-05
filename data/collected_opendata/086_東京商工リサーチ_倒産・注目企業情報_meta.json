@@ -1,0 +1,15 @@
+{
+  "index": 86,
+  "name": "東京商工リサーチ 倒産・注目企業情報",
+  "category": "景気動向が分かるデータ7選",
+  "provider": "東京商工リサーチ（東京・千代田）",
+  "summary": "負債総額1億円程度の小規模企業の倒産情報も掲載。",
+  "url": "https://www.tsr-net.co.jp/news/tsr/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 89389,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "086_東京商工リサーチ_倒産・注目企業情報.html",
+  "error": null
+}

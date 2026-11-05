@@ -1,0 +1,15 @@
+{
+  "index": 43,
+  "name": "地域ブランド調査",
+  "category": "「住まい」関連データ7選",
+  "provider": "ブランド総合研究所（東京・港）",
+  "summary": "茨城か栃木か佐賀か——。最下位争いが毎年話題になる「都道府県魅力度ランキング」の元となる調査。魅力度は全89の調査項目の一つ。47都道府県と1000市区町村の地域ブランド力を、全国3万人規模で評価している。",
+  "url": "https://news.tiiki.jp/05_research/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 85237,
+  "content_type": "text/html;charset=utf-8",
+  "saved_file": "043_地域ブランド調査.html",
+  "error": null
+}

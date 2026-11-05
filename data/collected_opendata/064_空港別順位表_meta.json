@@ -1,0 +1,15 @@
+{
+  "index": 64,
+  "name": "空港別順位表",
+  "category": "「趣味・レジャー」関連データ7選",
+  "provider": "国土交通省",
+  "summary": "国内空港別の旅客数ランキング、着陸回数ランキングを掲載。2022年度の国内線旅客数トップ3は羽田、新千歳、福岡。国際線のトップ3は成田、羽田、関西国際空港。",
+  "url": "https://www.mlit.go.jp/koku/15_bf_000185.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 12681,
+  "content_type": "text/html",
+  "saved_file": "064_空港別順位表.html",
+  "error": null
+}

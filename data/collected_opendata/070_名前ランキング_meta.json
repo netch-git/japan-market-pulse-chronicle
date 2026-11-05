@@ -1,0 +1,15 @@
+{
+  "index": 70,
+  "name": "名前ランキング",
+  "category": "「若者・子ども」関連データ7選",
+  "provider": "明治安田生命保険",
+  "summary": "明治安田生命の加入者で子どもが生まれた世帯を対象に、1989年から「生まれ年別の名前調査」を実施。男女別に名前ベスト100、読み方ベスト50を公表。",
+  "url": "https://www.meijiyasuda.co.jp/enjoy/ranking/index.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 16158,
+  "content_type": "text/html",
+  "saved_file": "070_名前ランキング.html",
+  "error": null
+}

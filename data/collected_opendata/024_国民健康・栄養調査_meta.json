@@ -1,0 +1,15 @@
+{
+  "index": 24,
+  "name": "国民健康・栄養調査",
+  "category": "「食」関連データ6選",
+  "provider": "厚生労働省",
+  "summary": "健康増進法に基づき、国民の体の状況、栄養素の摂取量、生活習慣の状況を把握するため、毎年調査を実施。「飲酒習慣のある者」（週3日以上飲酒、1日当たり1合以上を飲酒）の割合や性・年代別傾向は、この調査からピックアップ。",
+  "url": "https://www.mhlw.go.jp/bunya/kenkou/kenkou_eiyou_chousa.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 19010,
+  "content_type": "text/html",
+  "saved_file": "024_国民健康・栄養調査.html",
+  "error": null
+}

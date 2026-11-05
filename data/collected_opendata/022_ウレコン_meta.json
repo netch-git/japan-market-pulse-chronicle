@@ -1,0 +1,15 @@
+{
+  "index": 22,
+  "name": "ウレコン",
+  "category": "消費・流行、顧客満足データ5選",
+  "provider": "True Data",
+  "summary": "全国のドラッグストア、食品スーパーマーケットにおける購買情報を統計化したID-POS（販売時点情報管理）データを基に、日用品、食品など約500カテゴリーの直近3カ月データを無料で閲覧できるサイト。登録者数は2024年4月に3万人を突破。",
+  "url": "https://urecon.jp/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 37460,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "022_ウレコン.html",
+  "error": null
+}

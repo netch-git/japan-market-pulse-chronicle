@@ -1,0 +1,15 @@
+{
+  "index": 74,
+  "name": "NISA口座の開設・利用状況",
+  "category": "「家計・マネー」関連データ3選",
+  "provider": "日本証券業協会（東京・中央）",
+  "summary": "新たな少額投資非課税制度（NISA）開始をきっかけとする証券口座の開設動向が分かる。証券会社10社の2025年6月末時点でのNISA口座数は1920万口座。25年3〜6月の新規口座開設件数は約41万件。81万件だった前年同期から半減。",
+  "url": "https://www.jsda.or.jp/houdou/kaiken/kaiken_2025.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 62210,
+  "content_type": "text/html",
+  "saved_file": "074_NISA口座の開設・利用状況.html",
+  "error": null
+}

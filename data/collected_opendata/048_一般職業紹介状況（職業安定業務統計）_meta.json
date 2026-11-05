@@ -1,0 +1,15 @@
+{
+  "index": 48,
+  "name": "一般職業紹介状況（職業安定業務統計）",
+  "category": "「職」関連データ5選",
+  "provider": "厚生労働省",
+  "summary": "公共職業安定所（ハローワーク）における求人、求職、就職の状況をとりまとめ、「有効求人倍率」「新規求人倍率」などの指標を一般職業紹介状況として毎月公表。",
+  "url": "https://www.mhlw.go.jp/toukei/list/114-1.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 11231,
+  "content_type": "text/html",
+  "saved_file": "048_一般職業紹介状況（職業安定業務統計）.html",
+  "error": null
+}

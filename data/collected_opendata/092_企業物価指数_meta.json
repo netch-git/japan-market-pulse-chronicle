@@ -1,0 +1,15 @@
+{
+  "index": 92,
+  "name": "企業物価指数",
+  "category": "「物価」関連データ3選",
+  "provider": "日本銀行",
+  "summary": "企業間で取引される財の価格変動を測定する物価指数。日銀が毎月公表。国内企業物価指数、輸出物価指数、輸入物価指数の3つから構成されている。",
+  "url": "https://www.boj.or.jp/statistics/pi/cgpi_release/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 57001,
+  "content_type": "text/html;charset=UTF-8",
+  "saved_file": "092_企業物価指数.html",
+  "error": null
+}

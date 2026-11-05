@@ -1,0 +1,15 @@
+{
+  "index": 25,
+  "name": "キッチン白書",
+  "category": "「食」関連データ6選",
+  "provider": "クリナップ",
+  "summary": "生活者の食や暮らしに関する情報の収集、調査、分析を行うクリナップ内の研究部門「おいしい暮らし研究所」が、キッチン空間、献立の変遷、食の場など毎年テーマを変えながら調査を実施。まとめた白書を閲覧できる。",
+  "url": "https://cleanup.jp/oikura/kitchen-hakusyo/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 115792,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "025_キッチン白書.html",
+  "error": null
+}

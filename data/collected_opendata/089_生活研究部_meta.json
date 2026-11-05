@@ -1,0 +1,15 @@
+{
+  "index": 89,
+  "name": "生活研究部",
+  "category": "リサーチ会社の自主調査データ8選",
+  "provider": "ニッセイ基礎研究所（東京・千代田）",
+  "summary": "「生活者の意識・価値観の変化」「家計・消費行動の動向」「金融・保険マーケティング」「企業の人事・労務制度・働き方改革」「人口動態、少子化対策」などのテーマで調査レポートを多数公開。",
+  "url": "https://www.nli-research.co.jp/topics_detail10/id=12?site=nli",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 158963,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "089_生活研究部.html",
+  "error": null
+}

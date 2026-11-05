@@ -1,0 +1,15 @@
+{
+  "index": 31,
+  "name": "電子商取引実態調査",
+  "category": "「買い物」関連データ9選",
+  "provider": "経済産業省",
+  "summary": "国内BtoC（消費者向け）のEC（電子商取引）市場規模、すべての取引に対するECの割合を示す「EC化率」、EC各分野の市場規模増減率などを毎年調査、公表。書籍、映像・音楽ソフトのEC化率は52.2%に達している（2022年）。",
+  "url": "https://www.meti.go.jp/policy/it_policy/statistics/outlook/ie_outlook.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 31296,
+  "content_type": "text/html",
+  "saved_file": "031_電子商取引実態調査.html",
+  "error": null
+}

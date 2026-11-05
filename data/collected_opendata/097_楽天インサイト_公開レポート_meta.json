@@ -1,0 +1,15 @@
+{
+  "index": 97,
+  "name": "楽天インサイト 公開レポート",
+  "category": "リサーチ会社の自主調査データ8選",
+  "provider": "楽天インサイト（東京・世田谷）",
+  "summary": "季節行事やトレンドをテーマに自主的に実施した調査結果レポート。直近の調査テーマは、AI（人工知能）、社会人の意識、終活に関する調査、資産運用など。",
+  "url": "https://insight.rakuten.co.jp/report/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 35080,
+  "content_type": "text/html",
+  "saved_file": "097_楽天インサイト_公開レポート.html",
+  "error": null
+}

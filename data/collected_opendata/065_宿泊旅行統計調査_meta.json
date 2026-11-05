@@ -1,0 +1,15 @@
+{
+  "index": 65,
+  "name": "宿泊旅行統計調査",
+  "category": "「趣味・レジャー」関連データ7選",
+  "provider": "観光庁",
+  "summary": "全国のホテル、旅館、簡易宿所、会社・団体の宿泊所など国内6万6000軒を超える宿泊施設を対象に毎月調査を実施。延べ宿泊者数、うち外国人宿泊者数、客室稼働率などについて、施設タイプ別、エリア別のデータを閲覧できる。",
+  "url": "https://www.mlit.go.jp/kankocho/tokei_hakusyo/shukuhakutokei.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 59250,
+  "content_type": "text/html",
+  "saved_file": "065_宿泊旅行統計調査.html",
+  "error": null
+}

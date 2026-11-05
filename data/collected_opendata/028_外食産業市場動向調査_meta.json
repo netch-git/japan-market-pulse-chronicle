@@ -1,0 +1,15 @@
+{
+  "index": 28,
+  "name": "外食産業市場動向調査",
+  "category": "「食」関連データ6選",
+  "provider": "日本フードサービス協会（東京・港）",
+  "summary": "ファストフード、ファミリーレストラン、パブレストラン・居酒屋、ディナーレストラン、喫茶の各業態別に売上高前年同月比（全店データ）を月次で調査、公開している。",
+  "url": "https://www.jfnet.or.jp/industry_report/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 74246,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "028_外食産業市場動向調査.html",
+  "error": null
+}

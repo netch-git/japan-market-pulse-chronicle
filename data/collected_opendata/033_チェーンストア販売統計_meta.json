@@ -1,0 +1,15 @@
+{
+  "index": 33,
+  "name": "チェーンストア販売統計",
+  "category": "「買い物」関連データ9選",
+  "provider": "日本チェーンストア協会（東京・港）",
+  "summary": "日本チェーンストア協会に加盟する会員企業の総販売額を集計。全店売上高と既存店売上高の前年同月比、食料品・衣料品・住居関連用品のジャンル別データなどを掲載。",
+  "url": "https://www.jcsa.gr.jp/public/statistics.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 30583,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "033_チェーンストア販売統計.html",
+  "error": null
+}

@@ -1,0 +1,15 @@
+{
+  "index": 45,
+  "name": "首都圏 新築分譲マンション市場動向",
+  "category": "「住まい」関連データ7選",
+  "provider": "不動産経済研究所（東京・新宿）",
+  "summary": "首都圏エリアの新築分譲マンションの発売戸数、平均価格、初月契約率、販売在庫数などを月次で調査し公表。都心で大規模タワーマンションの分譲があると平均価格が上振れしやすい。",
+  "url": "https://www.fudousankeizai.co.jp/mansion",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 35330,
+  "content_type": "text/html;charset=UTF-8",
+  "saved_file": "045_首都圏_新築分譲マンション市場動向.html",
+  "error": null
+}

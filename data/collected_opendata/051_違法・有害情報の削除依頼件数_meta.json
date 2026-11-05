@@ -1,0 +1,15 @@
+{
+  "index": 51,
+  "name": "違法・有害情報の削除依頼件数",
+  "category": "「デジタルライフ」関連データ8選",
+  "provider": "セーフライン・インターネット協会（SIA、東京・千代田）",
+  "summary": "SIAは、通報およびサイトパトロールによって把握した違法・有害情報を削除依頼する「セーフライン」を運営。2023年に削除依頼を行った件数は、前年比43.4%増の1万1716件。",
+  "url": "https://www.safe-line.jp/statistics/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 40338,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "051_違法・有害情報の削除依頼件数.html",
+  "error": null
+}

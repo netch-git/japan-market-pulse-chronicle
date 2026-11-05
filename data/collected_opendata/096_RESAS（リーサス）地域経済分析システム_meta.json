@@ -1,0 +1,15 @@
+{
+  "index": 96,
+  "name": "RESAS（リーサス）地域経済分析システム",
+  "category": "データプラットフォーム3選",
+  "provider": "内閣官房デジタル田園都市国家構想実現会議事務局、経済産業省地域経済産業調査室",
+  "summary": "地方自治体の様々な取り組みを情報面から支援するために、内閣官房デジタル田園都市国家構想実現会議事務局が提供する、産業構造や人口動態、人の流れなどの官民ビッグデータを集約し、可視化するシステム。RESASとは、Regional Economy and Society Analyzing System（地域経済分析システム）の略。",
+  "url": "https://resas.go.jp/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 16745,
+  "content_type": "text/html",
+  "saved_file": "096_RESAS（リーサス）地域経済分析システム.html",
+  "error": null
+}

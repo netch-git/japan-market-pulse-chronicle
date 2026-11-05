@@ -1,0 +1,15 @@
+{
+  "index": 61,
+  "name": "VR Digest+",
+  "category": "メディア接触データ4選",
+  "provider": "ビデオリサーチ（東京・千代田）",
+  "summary": "「広告主テレビCM出稿秒数ランキングTOP20」「CM露出タレントランキングTOP20」「見逃し配信 再生回数ランキング」を毎月更新。",
+  "url": "https://www.videor.co.jp/digestplus/about/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 31658,
+  "content_type": "text/html",
+  "saved_file": "061_VR_Digest+.html",
+  "error": null
+}

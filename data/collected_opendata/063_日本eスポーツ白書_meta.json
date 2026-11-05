@@ -1,0 +1,15 @@
+{
+  "index": 63,
+  "name": "日本eスポーツ白書",
+  "category": "「趣味・レジャー」関連データ7選",
+  "provider": "日本eスポーツ連合（東京・中央）",
+  "summary": "国内eスポーツの普及と発展を目的に、eスポーツの市場規模、その内訳、ファン数（試合観戦・動画視聴経験者）、成長予測などを調査。2025年3月に発売した「日本eスポーツ白書2024」によると、23年の市場規模は前年比17.0%増の146億8500万円。25年には200億円規模に成長すると予測。",
+  "url": "https://jesu.or.jp/contents/news/news-250331/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 44973,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "063_日本eスポーツ白書.html",
+  "error": null
+}

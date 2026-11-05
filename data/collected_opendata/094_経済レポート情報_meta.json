@@ -1,0 +1,15 @@
+{
+  "index": 94,
+  "name": "経済レポート情報",
+  "category": "データプラットフォーム3選",
+  "provider": "ナレッジジャングル（大阪市）",
+  "summary": "各種経済レポートの新着順に紹介し、カテゴリー別に整理。「経営総合」の中に「マーケティング・セールス」カテゴリーもある。",
+  "url": "http://www3.keizaireport.com/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 0,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "094_経済レポート情報.html",
+  "error": null
+}

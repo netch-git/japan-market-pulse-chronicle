@@ -1,0 +1,15 @@
+{
+  "index": 78,
+  "name": "THE 日本大学ランキング",
+  "category": "「若者・子ども」関連データ7選",
+  "provider": "英Times Higher Education、ベネッセグループ",
+  "summary": "「世界大学ランキング」を2004年から発表している英教育専門誌「Times Higher Education」（THE）が、ベネッセグループと業務提携して発表している国内の大学ランキング。世界の大学ランキングは研究力が軸だが、国内では「教育力」を測る設計になっている。",
+  "url": "https://www.timeshighereducation.com/world-university-rankings",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 298128,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "078_THE_日本大学ランキング.html",
+  "error": null
+}

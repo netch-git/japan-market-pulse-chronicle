@@ -1,0 +1,15 @@
+{
+  "index": 83,
+  "name": "東京ビジネス地区の平均空室率",
+  "category": "景気動向が分かるデータ7選",
+  "provider": "三鬼商事（東京・中央）",
+  "summary": "オフィス仲介大手の三鬼商事が毎月、東京都心5区（千代田・中央・港・新宿・渋谷）のオフィス平均空室率、平均賃料（坪当たり）を公表。オフィス大量供給が懸念された「2023年問題」に、新型コロナウイルス禍によるリモートワーク移行が重なったものの、海外主要都市と比べると比較的順調に供給が吸収されている。",
+  "url": "https://www.e-miki.com/rent/tokyo.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 73937,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "083_東京ビジネス地区の平均空室率.html",
+  "error": null
+}

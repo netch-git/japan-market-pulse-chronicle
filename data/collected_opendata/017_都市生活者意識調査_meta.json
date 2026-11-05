@@ -1,0 +1,15 @@
+{
+  "index": 17,
+  "name": "都市生活者意識調査",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "ハイライフ研究所（東京・中央）",
+  "summary": "東京30km圏内に在住の18〜79歳男女を対象に、毎年1600人規模で調査を実施。生活実感、健康、メディア接触、家計収支、ワークライフバランス、人とのつきあい、老後への意識など、都市生活者の意識を調査してまとめた報告書（分析編とデータ編）を閲覧できる。",
+  "url": "https://www.hilife.or.jp/report-toshi",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 34038,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "017_都市生活者意識調査.html",
+  "error": null
+}

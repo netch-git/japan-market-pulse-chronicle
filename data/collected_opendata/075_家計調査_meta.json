@@ -1,0 +1,15 @@
+{
+  "index": 75,
+  "name": "家計調査",
+  "category": "「家計・マネー」関連データ3選",
+  "provider": "総務省",
+  "summary": "全国約9000世帯を対象に、家計の収入・支出、貯蓄・負債などを毎月調査。ギョーザの年間消費額を巡って浜松市と宇都宮市と宮崎市の競い合いが毎年恒例のニュースになるが、そのデータ元となっているのも家計調査である。",
+  "url": "https://www.stat.go.jp/data/kakei/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 16604,
+  "content_type": "text/html",
+  "saved_file": "075_家計調査.html",
+  "error": null
+}

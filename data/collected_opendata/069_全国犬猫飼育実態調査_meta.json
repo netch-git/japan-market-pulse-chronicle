@@ -1,0 +1,15 @@
+{
+  "index": 69,
+  "name": "全国犬猫飼育実態調査",
+  "category": "「趣味・レジャー」関連データ7選",
+  "provider": "ペットフード協会（東京・千代田）",
+  "summary": "犬・猫の飼育頭数、飼育率、新規飼育意向率、生体入手価格、給餌実態、ペット用品購入実態など年次の調査結果を閲覧できる。",
+  "url": "https://petfood.or.jp/data-chart/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 27839,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "069_全国犬猫飼育実態調査.html",
+  "error": null
+}

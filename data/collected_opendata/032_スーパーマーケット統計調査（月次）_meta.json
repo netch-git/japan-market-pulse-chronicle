@@ -1,0 +1,15 @@
+{
+  "index": 32,
+  "name": "スーパーマーケット統計調査（月次）",
+  "category": "「買い物」関連データ9選",
+  "provider": "オール日本スーパーマーケット協会（大阪市）、日本スーパーマーケット協会（東京・中央）、全国スーパーマーケット協会（東京・千代田）",
+  "summary": "食品を中心に取り扱うスーパーマーケット270社を対象に全店売上高と既存店売上高の前年同月比を調査、公表。食品ジャンル別やエリア別、店舗数・規模別などのデータも掲載している。",
+  "url": "https://www.super.or.jp/?page_id=2646",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 124596,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "032_スーパーマーケット統計調査（月次）.html",
+  "error": null
+}

@@ -1,0 +1,15 @@
+{
+  "index": 84,
+  "name": "景気ウォッチャー調査",
+  "category": "景気動向が分かるデータ7選",
+  "provider": "内閣府",
+  "summary": "堺屋太一氏の発案で始まった、地域の景気動向を早期に把握するための毎月定例調査。景気に敏感な職種の従事者約2000人に、3カ月前と比べた現在の景況感と、今後2〜3カ月の見通しを5段階評価してもらい、50を横ばいとする景気DIを算出。月例経済報告にも活用される。",
+  "url": "https://www5.cao.go.jp/keizai3/watcher_index.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 12415,
+  "content_type": "text/html",
+  "saved_file": "084_景気ウォッチャー調査.html",
+  "error": null
+}

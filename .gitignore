@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+
+# OS and Temp
+Thumbs.db
+.DS_Store
+tmp/
+/tmp/
+*.log
+
+# Large Raw Scan PDFs
+*.pdf
+!data/**/*.pdf
+
+# Cloudflare
+.wrangler/
+dist/

@@ -1,0 +1,15 @@
+{
+  "index": 49,
+  "name": "大卒求人倍率調査、採用見通し調査、中途採用実態調査",
+  "category": "「職」関連データ5選",
+  "provider": "リクルートワークス研究所",
+  "summary": "企業の採用状況や採用見通しに関する調査など、新卒採用、中途採用の実態を把握するための様々な調査・研究を実施。",
+  "url": "https://www.works-i.com/surveys/adoption.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 44511,
+  "content_type": "text/html",
+  "saved_file": "049_大卒求人倍率調査、採用見通し調査、中途採用実態調査.html",
+  "error": null
+}

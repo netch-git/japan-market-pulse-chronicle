@@ -1,0 +1,15 @@
+{
+  "index": 13,
+  "name": "PickUp Data & Contents",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "リビングくらしHOW研究所（東京・新宿）",
+  "summary": "女性を起点に、男性や子ども、シニアなど、くらしと消費に関する1000件以上のマーケティングデータを無料で公開。",
+  "url": "https://ad.sankeiliving.co.jp/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 23758,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "013_PickUp_Data_&_Contents.html",
+  "error": null
+}

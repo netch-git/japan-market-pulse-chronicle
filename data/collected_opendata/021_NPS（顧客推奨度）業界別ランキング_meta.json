@@ -1,0 +1,15 @@
+{
+  "index": 21,
+  "name": "NPS（顧客推奨度）業界別ランキング",
+  "category": "消費・流行、顧客満足データ5選",
+  "provider": "NTTコム オンライン・マーケティング・ソリューション（東京・品川）",
+  "summary": "2016年から業界別のNPS（ネット・プロモーター・スコア）ベンチマーク調査を実施し、業界別のNPSランキングトップ企業を公開。各業界のNPSの平均値や傾向、対象企業の業界内での相対的な位置付けを知ることができる。無料レポートでは3位企業までを公開。",
+  "url": "https://www.nttcoms.com/service/nps/report/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 132835,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "021_NPS（顧客推奨度）業界別ランキング.html",
+  "error": null
+}

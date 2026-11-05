@@ -1,0 +1,15 @@
+{
+  "index": 8,
+  "name": "Macromill Weekly Index",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "マクロミル",
+  "summary": "日本に住む生活者の毎週の消費動向や景況感、生活気分などについて、2013年4月から継続的に把握できるウィークリー定点観測調査をオープンデータとして公表。毎週水曜日に調査を実施、同週の金曜日にデータを公表しており、ビジネスインテリジェンス（BI）ツール「Tableau」とデータ連携し、性別や年代、地域別なども把握することが可能。アジア編もある。",
+  "url": "https://www.macromill.com/service/weeklyindex/jp/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 86766,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "008_Macromill_Weekly_Index.html",
+  "error": null
+}

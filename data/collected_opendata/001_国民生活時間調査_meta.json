@@ -1,0 +1,15 @@
+{
+  "index": 1,
+  "name": "国民生活時間調査",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "NHK放送文化研究所（東京・港）",
+  "summary": "睡眠や仕事、家事、食事、テレビ視聴といった生活行動について、どの時間帯にどのくらいの時間を割いているのか、5年おきに調査。性・年代別の特徴、差異をビジュアルに表現している。",
+  "url": "https://www.nhk.or.jp/bunken/yoron-jikan/",
+  "fetched_at": "2026-11-05T21:23:59.834943",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 56580,
+  "content_type": "text/html",
+  "saved_file": "001_国民生活時間調査.html",
+  "error": null
+}

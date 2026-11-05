@@ -1,0 +1,15 @@
+{
+  "index": 26,
+  "name": "国別ビール消費量／国別1人当たりビール消費量",
+  "category": "「食」関連データ6選",
+  "provider": "キリンホールディングス",
+  "summary": "世界各国のビール協会などに対して独自に実施した調査と海外資料を基に、世界170の国と地域の年間ビール消費量をまとめている。2022年の国別消費量トップ3は中国、米国、ブラジル。1人当たりのトップはチェコ共和国。",
+  "url": "https://www.kirinholdings.com/jp/newsroom/release/2024/1219_01.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 68179,
+  "content_type": "text/html;charset=utf-8",
+  "saved_file": "026_国別ビール消費量／国別1人当たりビール消費量.html",
+  "error": null
+}

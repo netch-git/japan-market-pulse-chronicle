@@ -1,0 +1,15 @@
+{
+  "index": 30,
+  "name": "消費者被害・トラブル額の推計",
+  "category": "「買い物」関連データ9選",
+  "provider": "消費者庁",
+  "summary": "毎年発行される「消費者白書」に、消費者被害・トラブル額の推計が載っている。2022年の1年間に発生が発生した消費者被害・トラブルは約1619万件。額は「既支払額（クレジットカードなどによる将来の支払いを含む）」で約6.5兆円。",
+  "url": "https://www.caa.go.jp/policies/policy/consumer_research/white_paper/2023/white_paper_116.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 48871,
+  "content_type": "text/html",
+  "saved_file": "030_消費者被害・トラブル額の推計.html",
+  "error": null
+}

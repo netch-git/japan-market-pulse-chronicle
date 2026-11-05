@@ -1,0 +1,15 @@
+{
+  "index": 20,
+  "name": "オリコン顧客満足度ランキング",
+  "category": "消費・流行、顧客満足データ5選",
+  "provider": "オリコン",
+  "summary": "2006年から様々な業態・業種のサービスの顧客満足度（CS）調査を開始。実際のサービス利用者が回答する。ランキング対象は、保険、金融、塾、スクール、美容、スポーツ＆ヘルス、ウェディング、通信、生活、住宅、ビジネス、人材、トラベルの計13カテゴリーで、最新の更新ランキング数は189、回答者は延べ366万人に上る。",
+  "url": "https://life.oricon.co.jp/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 91911,
+  "content_type": "text/html; charset=shift_jis",
+  "saved_file": "020_オリコン顧客満足度ランキング.html",
+  "error": null
+}

@@ -1,0 +1,15 @@
+{
+  "index": 58,
+  "name": "人気SNSのユーザー数まとめ",
+  "category": "「デジタルライフ」関連データ8選",
+  "provider": "コムニコ（東京・港）",
+  "summary": "X（旧Twitter）、Instagram、Facebook、LINE、TikTok、YouTubeなど、主要ソーシャルメディアの世界・国内ユーザー数を各媒体の公表データからまとめている。",
+  "url": "https://www.comnico.jp/we-love-social/sns-users",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 138741,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "058_人気SNSのユーザー数まとめ.html",
+  "error": null
+}

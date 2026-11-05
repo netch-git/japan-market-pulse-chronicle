@@ -1,0 +1,15 @@
+{
+  "index": 3,
+  "name": "ライフセグメント定点調査",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "エイトハンドレッド（東京・港）",
+  "summary": "生活者1万人の消費動向やライフスタイルを、2020年1月以降、3カ月おきに調査。従来型の性・年代別ではなくX・Y・Z世代といった世代軸や、末子の年齢別などライフセグメント軸で分析、ダウンロードできるのが特徴。",
+  "url": "https://eight-hundred.com/analytics/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 56826,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "003_ライフセグメント定点調査.html",
+  "error": null
+}

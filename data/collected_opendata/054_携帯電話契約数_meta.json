@@ -1,0 +1,15 @@
+{
+  "index": 54,
+  "name": "携帯電話契約数",
+  "category": "「デジタルライフ」関連データ8選",
+  "provider": "電気通信事業者協会（東京・千代田）",
+  "summary": "四半期ごとに、NTTドコモ、au、ソフトバンクおよびワイモバイルの契約数を9つの地方（北海道、東北、関東、甲信越、東海、北陸、関西、中国、四国、九州）別に算出して公開している。1996年1月以降の契約数を収録。",
+  "url": "https://www.tca.or.jp/database/index.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 17176,
+  "content_type": "text/html",
+  "saved_file": "054_携帯電話契約数.html",
+  "error": null
+}

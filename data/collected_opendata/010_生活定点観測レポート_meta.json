@@ -1,0 +1,15 @@
+{
+  "index": 10,
+  "name": "生活定点観測レポート",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "東京都市生活研究所",
+  "summary": "首都圏に暮らす人々の生活・意識・行動の現状、その変化を経年的に把握するため、「都市生活者の意識・行動観測」（生活定点観測）調査を1990年から3年ごとに実施。",
+  "url": "https://www.toshiken.com/life/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 35614,
+  "content_type": "text/html",
+  "saved_file": "010_生活定点観測レポート.html",
+  "error": null
+}

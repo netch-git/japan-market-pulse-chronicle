@@ -1,0 +1,15 @@
+{
+  "index": 76,
+  "name": "家計の金融行動に関する世論調査",
+  "category": "「家計・マネー」関連データ3選",
+  "provider": "金融広報中央委員会（東京・中央）",
+  "summary": "全国5000の世帯（2人以上世帯）および全国2500の単身世帯を対象に毎年調査を実施。設問は、金融商品の保有状況や資産残高の増減、運用の目的、借入れ、金融商品など。",
+  "url": "https://www.shiruporuto.jp/public/document/container/yoron/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 32209,
+  "content_type": "text/html;charset=UTF-8",
+  "saved_file": "076_家計の金融行動に関する世論調査.html",
+  "error": null
+}

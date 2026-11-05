@@ -1,0 +1,15 @@
+{
+  "index": 12,
+  "name": "生活定点1992-2024",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "博報堂生活総合研究所（東京・港）",
+  "summary": "1992年から隔年で実施している生活者の長期時系列意識調査。生活者の意識や行動の変化から将来の価値観や欲求の行動を予測するため、同じ条件の調査地域・調査対象者に対し、同じ質問を繰り返している。30年分の生活者観測データ約1400項目を無料公開。",
+  "url": "https://seikatsusoken.jp/teiten/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 24142,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "012_生活定点1992-2024.html",
+  "error": null
+}

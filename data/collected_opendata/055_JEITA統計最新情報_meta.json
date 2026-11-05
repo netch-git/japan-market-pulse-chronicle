@@ -1,0 +1,15 @@
+{
+  "index": 55,
+  "name": "JEITA統計最新情報",
+  "category": "「デジタルライフ」関連データ8選",
+  "provider": "電子情報技術産業協会（JEITA、東京・千代田）",
+  "summary": "デスクトップパソコン（PC）、ノートPCの台数・金額を毎月公表。PCの国内市場動向を把握できる。2023年度のPC出荷台数は前年度比3.2%減の668万2000台。減少は3年連続。",
+  "url": "https://www.jeita.or.jp/japanese/stat/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 28786,
+  "content_type": "text/html; charset=auto",
+  "saved_file": "055_JEITA統計最新情報.html",
+  "error": null
+}

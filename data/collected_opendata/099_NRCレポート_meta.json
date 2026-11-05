@@ -1,0 +1,15 @@
+{
+  "index": 99,
+  "name": "NRCレポート",
+  "category": "リサーチ会社の自主調査データ8選",
+  "provider": "日本リサーチセンター（東京・墨田）",
+  "summary": "エンターテインメント、時事・トレンド、食生活・ライフスタイル、健康・医療、情報機器、ファッション・美容、家計・金融など様々なテーマで自主調査を実施し、レポートを公開。",
+  "url": "https://www.nrc.co.jp/report/index.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 249864,
+  "content_type": "text/html",
+  "saved_file": "099_NRCレポート.html",
+  "error": null
+}

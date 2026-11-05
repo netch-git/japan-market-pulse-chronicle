@@ -1,0 +1,15 @@
+{
+  "index": 59,
+  "name": "日本の広告費",
+  "category": "メディア接触データ4選",
+  "provider": "電通",
+  "summary": "電通が毎年発表する日本の総広告費と、媒体別・業種別広告費。2024年の総広告費は7兆6740億円（前年比4.9%増）で前年に続き過去最高を更新。インターネット広告費が3兆6517億円（同9.6%増）で広告市場の成長に寄与している。",
+  "url": "https://www.dentsu.co.jp/knowledge/ad_cost/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 37839,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "059_日本の広告費.html",
+  "error": null
+}

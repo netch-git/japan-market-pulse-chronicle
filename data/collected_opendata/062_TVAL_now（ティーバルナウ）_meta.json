@@ -1,0 +1,15 @@
+{
+  "index": 62,
+  "name": "TVAL now（ティーバルナウ）",
+  "category": "メディア接触データ4選",
+  "provider": "スイッチメディア（東京・港）",
+  "summary": "放送中のテレビ番組の視聴率をリアルタイムでグラフ表示するサービス。国内最大規模のテレビ視聴調査パネル（関東1万2000人、関西4000人、中京2000人）を持つスイッチメディアが、独自開発したテレビ視聴調査機器で世帯視聴率を収集。放送5分後の視聴率が1分ごとに自動更新される。",
+  "url": "https://tval-now.switch-m.com/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 2549,
+  "content_type": "text/html",
+  "saved_file": "062_TVAL_now（ティーバルナウ）.html",
+  "error": null
+}

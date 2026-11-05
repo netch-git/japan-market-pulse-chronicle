@@ -1,0 +1,15 @@
+{
+  "index": 72,
+  "name": "OECD生徒の学習到達度調査（PISA）",
+  "category": "「若者・子ども」関連データ7選",
+  "provider": "OECD（経済協力開発機構）",
+  "summary": "OECDが進めている国際的な学習到達度調査「PISA」（Programme for International Student Assessment）。15歳を対象に読解力リテラシー、数学的リテラシー、科学的リテラシーの3分野を3年おきに調査。そのリポートを掲載。",
+  "url": "https://www.nier.go.jp/05_kenkyu_seika/pisa/index.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 34083,
+  "content_type": "text/html",
+  "saved_file": "072_OECD生徒の学習到達度調査（PISA）.html",
+  "error": null
+}

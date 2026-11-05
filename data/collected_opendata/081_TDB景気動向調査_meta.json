@@ -1,0 +1,15 @@
+{
+  "index": 81,
+  "name": "TDB景気動向調査",
+  "category": "景気動向が分かるデータ7選",
+  "provider": "帝国データバンク（東京・港）",
+  "summary": "国内景気の実態把握を目的に、2002年5月から調査を開始。全国2万7000社以上を対象に、現在の景況感と先行きの見通し、経営状況などを尋ねる。景況感は「非常に良い」から「非常に悪い」の7段階評価で、景気DI（業況判断指数）を算出。",
+  "url": "https://www.tdb.co.jp/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 909122,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "081_TDB景気動向調査.html",
+  "error": null
+}

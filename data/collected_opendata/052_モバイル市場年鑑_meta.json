@@ -1,0 +1,15 @@
+{
+  "index": 52,
+  "name": "モバイル市場年鑑",
+  "category": "「デジタルライフ」関連データ8選",
+  "provider": "米data.ai",
+  "summary": "新規アプリのダウンロード数、アプリストアの支出額、ユーザー1人当たりの1日の利用時間、モバイル広告支出額などグローバルのモバイル市場概況や、12業界30市場のモバイル、アプリ利用動向をリポート。",
+  "url": "https://sensortower.com/ja/state-of-mobile-2025",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 169170,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "052_モバイル市場年鑑.html",
+  "error": null
+}

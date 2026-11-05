@@ -1,0 +1,15 @@
+{
+  "index": 7,
+  "name": "生活図鑑",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "博報堂生活総合研究所",
+  "summary": "生活者が衣・食・住などのテーマで撮影した写真を収集・分析する「生活写真調査」のデータを閲覧できるサイト。第1弾のテーマは「食」。約1600枚の生活写真を、撮影対象カテゴリー、撮影者の特徴などから自由検索できるデータベースとして利用可能。",
+  "url": "https://seikatsusoken.jp/seikatsu-zukan/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 4879,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "007_生活図鑑.html",
+  "error": null
+}

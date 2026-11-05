@@ -1,0 +1,15 @@
+{
+  "index": 38,
+  "name": "通信販売売上高",
+  "category": "「買い物」関連データ9選",
+  "provider": "日本通信販売協会（JADMA、東京・中央）",
+  "summary": "JADMAの理事社・監事社を中心とする約120社を対象に月次の売上高、前年同月比を調査し、公表。",
+  "url": "https://jadma.or.jp/contents/statistics",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 191495,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "038_通信販売売上高.html",
+  "error": null
+}

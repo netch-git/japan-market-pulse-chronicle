@@ -1,0 +1,15 @@
+{
+  "index": 16,
+  "name": "国民生活に関する世論調査",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "内閣府",
+  "summary": "内閣府が実施する様々な世論調査の中で毎年定例で実施している調査の一つ。現在の生活に対する満足度、充実感、去年と比べた生活の向上感、働く目的、自由時間の過ごし方、日常での悩みに不安、今後の生活見通しなどを尋ねて集計している。",
+  "url": "https://survey.gov-online.go.jp/index.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 23966,
+  "content_type": "text/html",
+  "saved_file": "016_国民生活に関する世論調査.html",
+  "error": null
+}

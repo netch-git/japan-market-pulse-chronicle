@@ -1,0 +1,15 @@
+{
+  "index": 56,
+  "name": "情報通信白書",
+  "category": "「デジタルライフ」関連データ8選",
+  "provider": "総務省",
+  "summary": "ブロードバンドの整備・利用状況、情報通信産業、電気通信事業、放送事業の動向などについて調査・分析している。",
+  "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/index.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 22922,
+  "content_type": "text/html",
+  "saved_file": "056_情報通信白書.html",
+  "error": null
+}

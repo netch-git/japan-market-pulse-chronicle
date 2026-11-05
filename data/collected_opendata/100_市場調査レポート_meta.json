@@ -1,0 +1,15 @@
+{
+  "index": 100,
+  "name": "市場調査レポート",
+  "category": "リサーチ会社の自主調査データ8選",
+  "provider": "ネオマーケティング",
+  "summary": "IT・情報通信・メディア、食品・飲料、住まい・暮らし、健康・医療・福祉、仕事・経済、金融・保険、レジャー・旅行など様々なテーマで自主調査を実施し、レポートを公開。",
+  "url": "https://corp.neo-m.jp/report/investigation",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 218089,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "100_市場調査レポート.html",
+  "error": null
+}

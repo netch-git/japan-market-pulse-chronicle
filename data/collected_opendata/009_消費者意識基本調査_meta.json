@@ -1,0 +1,15 @@
+{
+  "index": 9,
+  "name": "消費者意識基本調査",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "消費者庁",
+  "summary": "消費者庁が、消費者問題の現状や求められる政策ニーズなどを把握するため、一般消費者を対象に消費生活での意識や行動、消費者事故・トラブルの経験などを調査。2013年以降、毎年の調査結果を閲覧できる。",
+  "url": "https://www.caa.go.jp/policies/policy/consumer_research/research_report/survey_002",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 57572,
+  "content_type": "text/html",
+  "saved_file": "009_消費者意識基本調査.html",
+  "error": null
+}

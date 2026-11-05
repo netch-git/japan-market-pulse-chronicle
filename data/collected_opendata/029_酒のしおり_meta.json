@@ -1,0 +1,15 @@
+{
+  "index": 29,
+  "name": "酒のしおり",
+  "category": "「食」関連データ6選",
+  "provider": "国税庁",
+  "summary": "成人1人当たり酒類消費数量の推移や、酒類課税数量の推移、酒税収入の内訳、清酒の課税数量の推移などを掲載。",
+  "url": "https://www.nta.go.jp/taxes/sake/shiori-gaikyo/shiori/01.htm",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 10006,
+  "content_type": "text/html",
+  "saved_file": "029_酒のしおり.html",
+  "error": null
+}

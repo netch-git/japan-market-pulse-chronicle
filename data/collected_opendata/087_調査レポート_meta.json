@@ -1,0 +1,15 @@
+{
+  "index": 87,
+  "name": "調査レポート",
+  "category": "リサーチ会社の自主調査データ8選",
+  "provider": "クロス・マーケティング",
+  "summary": "数多くの市場調査レポートを掲載。「消費動向に関する定点調査」は5月と10月の年2回調査を実施。",
+  "url": "https://www.cross-m.co.jp/report",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 316070,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "087_調査レポート.html",
+  "error": null
+}

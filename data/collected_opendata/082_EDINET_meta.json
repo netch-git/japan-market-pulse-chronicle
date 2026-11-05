@@ -1,0 +1,15 @@
+{
+  "index": 82,
+  "name": "EDINET",
+  "category": "景気動向が分かるデータ7選",
+  "provider": "金融庁",
+  "summary": "上場企業の有価証券報告書を検索、閲覧できるサイト。例えば「SDGs（持続可能な開発目標）」「女性」といったキーワード検索で、サステナビリティ（持続可能性）への取り組みや、役員・管理職への女性登用を把握できる。",
+  "url": "https://disclosure2.edinet-fsa.go.jp/WEEK0010.aspx",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 93504,
+  "content_type": "text/html; charset=utf-8",
+  "saved_file": "082_EDINET.html",
+  "error": null
+}

@@ -1,0 +1,15 @@
+{
+  "index": 68,
+  "name": "レジャー白書",
+  "category": "「趣味・レジャー」関連データ7選",
+  "provider": "日本生産性本部（東京・千代田）",
+  "summary": "1977年から続く、余暇の実態を需給双方から時系列で分析したレポート。スポーツ、趣味・創作、娯楽、観光・行楽など108項目の動向を全国規模で調査している。",
+  "url": "https://www.jpc-net.jp/research/list/leisure.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 47056,
+  "content_type": "text/html",
+  "saved_file": "068_レジャー白書.html",
+  "error": null
+}

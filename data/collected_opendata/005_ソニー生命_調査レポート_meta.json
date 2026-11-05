@@ -1,0 +1,15 @@
+{
+  "index": 5,
+  "name": "ソニー生命 調査レポート",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "ソニー生命保険（東京・千代田）",
+  "summary": "「社会人1年目と2年目の意識調査」「子どもの教育資金に関する調査」「47都道府県別 生活意識調査」「シニアの生活意識調査」「中高生が思い描く将来についての意識調査」などの定番調査を毎年実施、シリーズで結果を公開している。",
+  "url": "https://www.sonylife.co.jp/company/news/report.html",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": null,
+  "success": false,
+  "bytes_downloaded": 0,
+  "content_type": "",
+  "saved_file": null,
+  "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)"
+}

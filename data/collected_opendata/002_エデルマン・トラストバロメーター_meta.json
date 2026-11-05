@@ -1,0 +1,15 @@
+{
+  "index": 2,
+  "name": "エデルマン・トラストバロメーター",
+  "category": "生活者意識・行動が分かるデータ18選",
+  "provider": "米Edelman",
+  "summary": "世界28の国と地域、3万人超を対象に毎年実施している信頼度調査。自国の政府、企業、メディア、NGO/NPOといった組織・機関に対する信頼度を国際比較している。",
+  "url": "https://www.edelman.jp/insight/trust",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 403,
+  "success": false,
+  "bytes_downloaded": 0,
+  "content_type": "text/html",
+  "saved_file": null,
+  "error": "HTTP 403"
+}

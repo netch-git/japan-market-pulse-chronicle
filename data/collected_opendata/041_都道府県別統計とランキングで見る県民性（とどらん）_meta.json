@@ -1,0 +1,15 @@
+{
+  "index": 41,
+  "name": "都道府県別統計とランキングで見る県民性（とどらん）",
+  "category": "「住まい」関連データ7選",
+  "provider": "久保哲朗氏",
+  "summary": "様々な都道府県別統計を比較したランキング。県民性をデータと都道府県ランキングで表す。「統計から読み解く47都道府県ランキング」などの著書がある統計ジャーナリストの久保哲朗氏が運営。",
+  "url": "https://todo-ran.com/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 72872,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "041_都道府県別統計とランキングで見る県民性（とどらん）.html",
+  "error": null
+}

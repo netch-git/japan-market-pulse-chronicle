@@ -1,0 +1,15 @@
+{
+  "index": 50,
+  "name": "doda転職求人倍率レポート",
+  "category": "「職」関連データ5選",
+  "provider": "パーソルキャリア",
+  "summary": "dodaの会員登録者（転職希望者）1人に対して、中途採用の求人が何件あるかを算出した数値。全体のほか、業種別、職種別の求人倍率を毎月公表。",
+  "url": "https://doda.jp/guide/kyujin_bairitsu/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": null,
+  "success": false,
+  "bytes_downloaded": 0,
+  "content_type": "",
+  "saved_file": null,
+  "error": ""
+}

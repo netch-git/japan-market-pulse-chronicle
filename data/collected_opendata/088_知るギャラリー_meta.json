@@ -1,0 +1,15 @@
+{
+  "index": 88,
+  "name": "知るギャラリー",
+  "category": "リサーチ会社の自主調査データ8選",
+  "provider": "インテージ",
+  "summary": "大手調査会社インテージの調査コンテンツサイト。生活者の意識や行動の最新実態を取り上げる「トレンド情報」、リサーチ術を伝える「データ活用 リサーチノウハウ」、時間の使い方・お金の使い方、移動行動データを毎月更新する「生活者インデックス」の3カテゴリーで情報発信している。",
+  "url": "https://gallery.intage.co.jp/",
+  "fetched_at": "2026-11-05T21:23:59.847568",
+  "status_code": 200,
+  "success": true,
+  "bytes_downloaded": 109444,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_file": "088_知るギャラリー.html",
+  "error": null
+}
