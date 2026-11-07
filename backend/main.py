@@ -470,7 +470,10 @@ DEFAULT_SEEDS: Dict[str, Any] = {
 # キャッシュ管理関数
 # ==========================================
 def load_latest_cache() -> Dict[str, Any]:
-    from analysis_engine import generate_advanced_analytics_payload
+    try:
+        from analysis_engine import generate_advanced_analytics_payload
+    except ImportError:
+        from backend.analysis_engine import generate_advanced_analytics_payload
     raw_data = None
     # 1. Firestore からの取得を試みる
     if db is not None:
