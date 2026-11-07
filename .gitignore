@@ -9,6 +9,8 @@ ENV/
 
 # OS and Temp
 Thumbs.db
+desktop.ini
+*/desktop.ini
 .DS_Store
 tmp/
 /tmp/
