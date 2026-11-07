@@ -1,6 +1,6 @@
 """
 Japan Market Pulse Chronicle - Autonomous Continuous Pipeline Daemon
-明朝04:00まで自律的にデータ取得・統計解析・可視化更新・Git push・Cloudflareデプロイを反復実行
+1日1回自律的にデータ取得・統計解析・可視化更新・Git push・Cloudflareデプロイを実行（デイリーパイプライン）
 """
 
 import os
@@ -147,35 +147,23 @@ def update_pipeline_cycle(iteration: int):
 
 def main():
     logger.info("*" * 70)
-    logger.info("AUTONOMOUS CONTINUOUS PIPELINE DAEMON INITIALIZED")
-    logger.info("Target Schedule: Tomorrow 04:00:00 JST")
+    logger.info("AUTONOMOUS CONTINUOUS PIPELINE DAEMON INITIALIZED (DAILY MODE)")
+    logger.info("Schedule: 1 Execution / Day (Interval: 24 Hours)")
     logger.info(f"Logs: {DAEMON_LOG_FILE}")
     logger.info("*" * 70)
 
-    # 終了目標時刻: 翌朝 04:00 JST
-    now = datetime.now()
-    target_end = (now + timedelta(days=1)).replace(hour=4, minute=0, second=0, microsecond=0)
-    if now.hour < 4:
-        target_end = now.replace(hour=4, minute=0, second=0, microsecond=0)
-
     iteration = 1
-    INTERVAL_SECONDS = 1800 # 30分間隔
+    INTERVAL_SECONDS = int(os.getenv("PIPELINE_INTERVAL_SECONDS", 86400))  # 1日1回（24時間）
 
     while True:
-        current_now = datetime.now()
-        if current_now >= target_end:
-            logger.info("*" * 70)
-            logger.info(f"REACHED SCHEDULED TARGET TIME: {target_end.strftime('%Y-%m-%d %H:%M:%S')}. DAEMON FINISHED.")
-            logger.info("*" * 70)
-            break
-
         try:
             update_pipeline_cycle(iteration)
         except Exception as e:
             logger.error(f"Unhandled exception in cycle #{iteration}: {e}")
 
         iteration += 1
-        logger.info(f"Sleeping for {INTERVAL_SECONDS} seconds until cycle #{iteration:03d}...")
+        next_run = datetime.now() + timedelta(seconds=INTERVAL_SECONDS)
+        logger.info(f"Sleeping for {INTERVAL_SECONDS} seconds (24h). Next cycle #{iteration:03d} scheduled at {next_run.strftime('%Y-%m-%d %H:%M:%S')}...")
         time.sleep(INTERVAL_SECONDS)
 
 if __name__ == "__main__":
